@@ -27,4 +27,7 @@ urlpatterns = [
     path('reply',views.reply),
     path('complaints',views.complaintcheck),
     path('alertnotify',views.alertnotify),
+    path('complaintrequest',views.complaintreq),
+    path('complaintverified',views.complaintverified),
+    path('notification',views.notification),
 ]

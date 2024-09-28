@@ -26,3 +26,12 @@ def complaintcheck(request):
 
 def alertnotify(request):
     return render(request,'forest_station/alertnotify')
+
+def complaintreq(request):
+    return render(request,'user/complaintrequest.html')
+
+def complaintverified(request):
+    return render(request,'user/complaintverified.html')
+
+def notification(request):
+    return render(request,'user/notification.html')
